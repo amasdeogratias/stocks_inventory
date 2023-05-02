@@ -2,47 +2,72 @@
 @section('title') Dashboard @endsection
 @section('content')
 
-<div class="app-title">
-    <div>
-        <h1><i class="fa fa-dashboard"></i> Dashboard</h1>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6 col-lg-3">
-        <div class="widget-small primary coloured-icon">
-            <i class="icon fa fa-users fa-3x"></i>
-            <div class="info">
-                <h4>Users</h4>
-                <p><b>5</b></p>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+          <div class="small-box bg-info">
+            <div class="inner">
+              <h3>10</h3>
+
+              <p>Total Users</p>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-        <div class="widget-small info coloured-icon">
-            <i class="icon fa fa-thumbs-o-up fa-3x"></i>
-            <div class="info">
-                <h4>Locations</h4>
-                <p><b>25</b></p>
+            <div class="icon">
+              <i class="ion ion-person"></i>
             </div>
+            <a href="" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
         </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-        <div class="widget-small warning coloured-icon">
-            <i class="icon fa fa-files-o fa-3x"></i>
-            <div class="info">
-                <h4>Party</h4>
-                <p><b>10</b></p>
+        <!-- ./col -->
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+          <div class="small-box bg-success">
+            <div class="inner">
+              <h3>10</h3>
+
+              <p>Total Locations</p>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-        <div class="widget-small danger coloured-icon">
-            <i class="icon fa fa-star fa-3x"></i>
-            <div class="info">
-                <h4>Items</h4>
-                <p><b>500</b></p>
+            <div class="icon">
+              <i class="ion ion-person-add"></i>
             </div>
+            <a href="" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
         </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-6">
+          <!-- small box -->
+          <div class="small-box bg-warning">
+            <div class="inner">
+              <h3>44</h3>
+
+              <p>Items</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>20</h3>
+
+                <p>Party</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+      </div>
     </div>
-</div>
+  </section>
+  <!-- /.content -->
 @endsection
