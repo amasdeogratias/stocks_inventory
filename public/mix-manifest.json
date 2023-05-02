@@ -1,0 +1,22 @@
+{
+    "/backend/css/main.css": "/backend/css/main.css",
+    "/backend/js/bootstrap.min.js": "/backend/js/bootstrap.min.js",
+    "/backend/js/jquery-3.3.1.min.js": "/backend/js/jquery-3.3.1.min.js",
+    "/backend/js/main.js": "/backend/js/main.js",
+    "/backend/js/plugins/bootstrap-datepicker.min.js": "/backend/js/plugins/bootstrap-datepicker.min.js",
+    "/backend/js/plugins/bootstrap-notify.min.js": "/backend/js/plugins/bootstrap-notify.min.js",
+    "/backend/js/plugins/chart.js": "/backend/js/plugins/chart.js",
+    "/backend/js/plugins/dataTables.bootstrap.min.js": "/backend/js/plugins/dataTables.bootstrap.min.js",
+    "/backend/js/plugins/dropzone.js": "/backend/js/plugins/dropzone.js",
+    "/backend/js/plugins/fullcalendar.min.js": "/backend/js/plugins/fullcalendar.min.js",
+    "/backend/js/plugins/jquery-ui.custom.min.js": "/backend/js/plugins/jquery-ui.custom.min.js",
+    "/backend/js/plugins/jquery.dataTables.min.js": "/backend/js/plugins/jquery.dataTables.min.js",
+    "/backend/js/plugins/jquery.vmap.min.js": "/backend/js/plugins/jquery.vmap.min.js",
+    "/backend/js/plugins/jquery.vmap.sampledata.js": "/backend/js/plugins/jquery.vmap.sampledata.js",
+    "/backend/js/plugins/jquery.vmap.world.js": "/backend/js/plugins/jquery.vmap.world.js",
+    "/backend/js/plugins/moment.min.js": "/backend/js/plugins/moment.min.js",
+    "/backend/js/plugins/pace.min.js": "/backend/js/plugins/pace.min.js",
+    "/backend/js/plugins/select2.min.js": "/backend/js/plugins/select2.min.js",
+    "/backend/js/plugins/sweetalert.min.js": "/backend/js/plugins/sweetalert.min.js",
+    "/backend/js/popper.min.js": "/backend/js/popper.min.js"
+}
