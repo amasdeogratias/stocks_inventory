@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/main.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/font-awesome/4.7.0/css/font-awesome.min.css') }}"/>
-    <title>@yield('title')-{{config(app.name)}}</title>
+    <title>@yield('title')-{{config('app.name')}}</title>
 
 </head>
 <body class="app sidebar-mini rtl">

@@ -2,8 +2,8 @@
 <aside class="app-sidebar">
     <div class="app-sidebar__user">
         <div>
-            <p class="app-sidebar__user-name">John Doe</p>
-            <p class="app-sidebar__user-designation">Frontend Developer</p>
+            <p class="app-sidebar__user-name">Deo Amas</p>
+            <p class="app-sidebar__user-designation">Backend Developer</p>
         </div>
     </div>
     <ul class="app-menu">
@@ -31,7 +31,7 @@
         </li>
         <li>
             <a class="app-menu__item" href="#"><i class="app-menu__icon fa fa-cogs"></i>
-                <span class="app-menu__label">Settings</span>
+                <span class="app-menu__label">Locations</span>
             </a>
         </li>
     </ul>
