@@ -29,7 +29,7 @@
     <title>@yield('title')-{{config('app.name')}}</title>
 
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-collapse sidebar-mini">
 
     <div class="wrapper">
         @include('admin.partials.header')
