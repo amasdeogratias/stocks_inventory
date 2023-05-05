@@ -23,13 +23,14 @@
     <link rel="stylesheet" href="{{ asset('backend/plugins/summernote/summernote-bs4.css') }}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('backend/dist/css/skins/_all-skins.min.css')}}">
 
       <!-- DataTables -->
       <link rel="stylesheet" href="{{asset('backend/plugins/datatables-bs4/css/dataTables.bootstrap4.css') }}">
     <title>@yield('title')-{{config('app.name')}}</title>
 
 </head>
-<body class="hold-transition sidebar-collapse sidebar-mini">
+<body class="hold-transition skin-blue sidebar-collapse layout-fixed">
 
     <div class="wrapper">
         @include('admin.partials.header')
