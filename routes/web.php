@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    AuthController
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +16,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
-    return view('welcome');
-});
+	if(Auth()->User()){
+		return Redirect()->Route('home');
+	}else{
+		return Redirect()->Route('login');
+	}
+    //return view('welcome');
+})->name('index');
+// Auth::routes();
+// Route::group(['prefix'  =>  'auth'], function () {
 
-Route::view('/', 'admin.auth.login');
-Route::view('/admin', 'admin.dashboard.index');
+//     Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
+//     Route::post('login', [AuthController::class,'login'])->name('login.post');
+//     Route::get('logout', [AuthController::class,'logout'])->name('logout');
+
+//     Route::group(['middleware' => ['auth:user']], function () {
+
+//         Route::get('/', function () {
+//             return view('admin.dashboard.index');
+//         })->name('admin.dashboard');
+
+//     });
+// });
+// Route::view('/', 'admin.auth.login');
+// Route::view('/admin', 'admin.dashboard.index');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

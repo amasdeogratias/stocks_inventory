@@ -27,7 +27,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
-      <form action="" method="post">
+      <form action="{{route('login')}}" method="post">
         @csrf
         <div class="input-group mb-3">
           <input type="email" class="form-control" name="email" placeholder="Email" required>
@@ -48,10 +48,10 @@
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
-              <input type="checkbox" id="remember">
+              {{-- <input type="checkbox" id="remember">
               <label for="remember">
                 Remember Me
-              </label>
+              </label> --}}
             </div>
           </div>
           <!-- /.col -->
@@ -62,7 +62,7 @@
         </div>
       </form>
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        {{-- <a href="forgot-password.html">I forgot my password</a> --}}
       </p>
     </div>
     <!-- /.login-card-body -->
