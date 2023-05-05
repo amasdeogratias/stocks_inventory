@@ -25,25 +25,7 @@ Route::get('/', function () {
 	}else{
 		return Redirect()->Route('login');
 	}
-    //return view('welcome');
 })->name('index');
-// Auth::routes();
-// Route::group(['prefix'  =>  'auth'], function () {
-
-//     Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
-//     Route::post('login', [AuthController::class,'login'])->name('login.post');
-//     Route::get('logout', [AuthController::class,'logout'])->name('logout');
-
-//     Route::group(['middleware' => ['auth:user']], function () {
-
-//         Route::get('/', function () {
-//             return view('admin.dashboard.index');
-//         })->name('admin.dashboard');
-
-//     });
-// });
-// Route::view('/', 'admin.auth.login');
-// Route::view('/admin', 'admin.dashboard.index');
 
 Auth::routes();
 

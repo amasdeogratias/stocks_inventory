@@ -21,12 +21,14 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="http://localhost/tally_connect/public/"><b>TALLY </b>CONNECT</a>
+
   </div>
   <!-- /.login-logo -->
   <div class="card">
+    <a href="" style="display: flex;  justify-content: center;    margin-top: 20px;"><h4>TC</h4></a>
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg"><strong>Sign In</strong></p>
+      <p class="login-box-msg">Enter your details to login to your account</p>
       <form action="{{route('login')}}" method="post">
         @csrf
         <div class="input-group mb-3">
@@ -48,22 +50,22 @@
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
-              {{-- <input type="checkbox" id="remember">
-              <label for="remember">
-                Remember Me
-              </label> --}}
+                <p class="mb-1">
+                    @if (Route::has('password.request'))
+                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                        {{ __('Forgot Your Password?') }}
+                    </a>
+                    @endif
+                  </p>
             </div>
           </div>
-          <!-- /.col -->
-          <div class="col-4">
+        </div>
+        <!-- /.col -->
+        <div class="col-4" style="float: right;">
             <button type="submit" class="btn btn-default btn-block" style="background-color:#FFC632">Sign In</button>
           </div>
           <!-- /.col -->
-        </div>
       </form>
-      <p class="mb-1">
-        {{-- <a href="forgot-password.html">I forgot my password</a> --}}
-      </p>
     </div>
     <!-- /.login-card-body -->
   </div>
