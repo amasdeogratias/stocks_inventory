@@ -25,7 +25,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="card">
-    <a href="" style="display: flex;  justify-content: center;    margin-top: 20px;"><h4>TC</h4></a>
+    <a href="" style="display: flex;  justify-content: center;    margin-top: 20px;font-weight: 700;"><h3>TC</h3></a>
     <div class="card-body login-card-body">
     <p class="login-box-msg"><strong>Sign In</strong></p>
       <p class="login-box-msg">Enter your details to login to your account</p>
@@ -53,7 +53,7 @@
                 <p class="mb-1">
                     @if (Route::has('password.request'))
                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                        {{ __('Forgot Your Password?') }}
+                        {{ __('Forgot Password?') }}
                     </a>
                     @endif
                   </p>
